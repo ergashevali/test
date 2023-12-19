@@ -1,0 +1,55 @@
+
+
+body {
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+    font-family: 'Arrial' sans-serif;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*, ::after, ::before{
+    box-sizing: inherit;
+}
+
+.heading {
+    text-align: center;
+}
+
+.select__bottom {
+    margin-top: 10px;
+}
+
+.button__left {
+    margin-top: 10px;
+}
+
+.left__heading {
+    text-align: center;
+}
+
+.content__left {
+    margin-left: 50px;
+}
+
+.content__rigth {
+    margin-left: 100px;
+}
+
+.rigth__images {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.ifurames{
+    display: flex;
+}
+
+.wraperchi{
+    display: flex;
+}
